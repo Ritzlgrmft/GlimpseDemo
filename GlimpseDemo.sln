@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlimpseDemo", "GlimpseDemo\GlimpseDemo.csproj", "{A2F923BA-4FFC-420C-9F10-03E0162CC2BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlimpseLog4Net", "GlimpseLog4Net\GlimpseLog4Net.csproj", "{50E4FAE7-100D-4488-A0DE-892CE8825106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BEAE5F23-D07E-4F5C-B9B9-CE7D80DEF04F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2F923BA-4FFC-420C-9F10-03E0162CC2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F923BA-4FFC-420C-9F10-03E0162CC2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F923BA-4FFC-420C-9F10-03E0162CC2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F923BA-4FFC-420C-9F10-03E0162CC2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E4FAE7-100D-4488-A0DE-892CE8825106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E4FAE7-100D-4488-A0DE-892CE8825106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E4FAE7-100D-4488-A0DE-892CE8825106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E4FAE7-100D-4488-A0DE-892CE8825106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
